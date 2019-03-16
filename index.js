@@ -29,7 +29,7 @@ module.exports = function(id, opts = {}) {
             date:   $(this).find('.review-date').text(),
             title:  $(this).find('.title').text().trim(),
             rating: $(this).find('.rating-other-user-rating').text().trim(),
-            body:   $(this).find('.text').text(),
+            body:   $(this).find('.text').html(),
             spoilers: !!$(this).find('.spoiler-warning').length,
           })
         })
