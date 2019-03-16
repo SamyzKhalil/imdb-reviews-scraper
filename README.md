@@ -10,7 +10,7 @@ npm install imdb-reviews-scrapper
 ### Usage
 
 ```js
-const imdbReviews = require('imdb-reviews-scraper')
+const imdbReviews = require('imdb-reviews-scrapper')
 
 // All properties are optional
 const options = {
