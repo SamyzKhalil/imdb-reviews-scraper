@@ -4,7 +4,7 @@ IMDB Reviews Scraper
 ### Installation
 
 ```
-npm install imdb-reviews-scraper
+npm install imdb-reviews-scrapper
 ```
 
 ### Usage
