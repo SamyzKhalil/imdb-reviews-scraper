@@ -4,7 +4,7 @@ const cheerio = require('cheerio')
 module.exports = function(id, opts = {}) {
   opts = {
     sort: opts.sort || 'helpfulnessScore',
-    ratingFilter: opts.ratFilter || '0',
+    ratingFilter: opts.ratingFilter || '0',
     spoilers: opts.spoilers || 'show',
     paginationKey: opts.paginationKey || ''
   }
